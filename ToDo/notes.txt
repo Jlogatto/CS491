@@ -1,0 +1,15 @@
+1 index.html <div id = "root" 
+2 main.jsx
+3 App.jsx 
+    function App() {
+
+    }
+
+
+
+import { useState } from 'react'
+usestate is called a state hook
+
+
+<Button name "Click">    name is a prop
+</Button>

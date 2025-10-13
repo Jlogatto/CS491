@@ -1,0 +1,16 @@
+import React, {useState} from 'react';
+
+let Counter2 = (props) => {
+    const [counter, setCount] = useState(0);
+
+    return(
+        <div>
+            <h2>Counter2</h2>
+            <div><button onClick={() => setCount((counter) => counter - 1)}>-</button></div>
+            <div>{counter}</div>
+            <div><button onClick={() => setCount((counter) => counter + 1)}>+</button></div>
+        </div>
+    )
+}
+
+export default Counter2
